@@ -6,8 +6,6 @@
           <el-radio-group v-model="bgSet" text-color="#ffffff">
             <el-radio label="0" size="large" border>默认壁纸</el-radio>
             <el-radio label="1" size="large" border>每日一图</el-radio>
-            <el-radio label="2" size="large" border>随机风景</el-radio>
-            <el-radio label="3" size="large" border>随机动漫</el-radio>
           </el-radio-group>
         </div>
       </el-collapse-item>
@@ -21,12 +19,6 @@
             :inactive-icon="CloseSmall"
           />
         </div>
-      </el-collapse-item>
-      <el-collapse-item title="其他设置" name="3">
-        <div>设置内容待增加</div>
-      </el-collapse-item>
-      <el-collapse-item title="其他设置" name="4">
-        <div>设置内容待增加</div>
       </el-collapse-item>
     </el-collapse>
   </div>

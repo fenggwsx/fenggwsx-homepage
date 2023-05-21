@@ -5,7 +5,6 @@
       <el-col :span="12">
         <div class="left">
           <Hitokoto />
-          <Music />
         </div>
       </el-col>
       <el-col :span="12">
@@ -36,7 +35,6 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 import { getCurrentTime } from "@/utils/getTime";
 import { mainStore } from "@/store";
-import Music from "@/components/Music/index.vue";
 import Hitokoto from "@/components/Hitokoto/index.vue";
 import Weather from "@/components/Weather/index.vue";
 

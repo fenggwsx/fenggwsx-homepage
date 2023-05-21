@@ -2,15 +2,6 @@
   <div class="cover">
     <img class="bg" :src="bgUrl" alt="cover" />
     <div :class="store.backgroundShow ? 'gray sm' : 'gray'" />
-    <transition name="el-fade-in-linear">
-      <a
-        class="down"
-        :href="bgUrl"
-        target="_blank"
-        v-show="store.backgroundShow && store.coverType != '3'"
-        >下载壁纸</a
-      >
-    </transition>
   </div>
 </template>
 
@@ -29,10 +20,6 @@ const changeBg = (type) => {
     )}.webp`;
   } else if (type == 1) {
     bgUrl.value = "https://api.dujin.org/bing/1920.php";
-  } else if (type == 2) {
-    bgUrl.value = "https://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images";
-  } else if (type == 3) {
-    bgUrl.value = "https://www.dmoe.cc/random.php";
   }
 };
 
