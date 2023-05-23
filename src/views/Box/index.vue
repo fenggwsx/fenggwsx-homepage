@@ -26,6 +26,7 @@
     </transition>
     <div class="content">
       <TimeCapsule />
+      <MoreLinks />
     </div>
   </div>
 </template>
@@ -34,6 +35,7 @@
 import { ref } from "vue";
 import { CloseOne, SettingTwo } from "@icon-park/vue-next";
 import TimeCapsule from "@/components/TimeCapsule/index.vue";
+import MoreLinks from "@/components/MoreLinks/index.vue"
 import { mainStore } from "@/store";
 const store = mainStore();
 

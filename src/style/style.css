@@ -55,8 +55,8 @@ p:hover {
 .cards {
   border-radius: 6px;
   background: rgba(0, 0, 0, 0.2509803922);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   transform: scale(1);
   transition: 0.5s;
   animation: fade;
@@ -76,8 +76,8 @@ p:hover {
 .el-message {
   --el-message-bg-color: #00000040 !important;
   --el-message-text-color: #efefef !important;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   border-radius: 25px !important;
   border-color: transparent !important;
 }
